@@ -19,8 +19,9 @@
  */
 
 #include <iostream>
+#include <string>
 
-int main () {
+int main () {  
   int num_terms;
   const std::string kSpace = " ";
 
@@ -45,6 +46,7 @@ int main () {
         next = last + before_last;
         std::cout << next << kSpace;
         before_last = last;
+        last = next;
       }
       break;
   }

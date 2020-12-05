@@ -14,7 +14,7 @@
  */
 
 #include <iostream>
-
+  
 int main () {
   std::cout << "Este programa imprime la suma de los N primeros números naturales" << std::endl << std::endl;
   std::cout << "Introduzca el número de términos a sumar: ";
